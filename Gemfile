@@ -35,5 +35,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rails_12factor', group: [:production]
+
 gem 'rack-cors', '~>0.3.1'
 gem 'active_model_serializers', '~> 0.9.3'
